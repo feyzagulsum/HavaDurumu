@@ -1,7 +1,7 @@
 # Hava Durumu Web Sitesi 
 ilk çalışmam hava durumu sitesi üzerine gerçekleştirildi. Bu çalışmamı __*2023  yılının 15 ekiminde*__ tamamlamış bulunmaktayım. Projem __Web Development__ teknolojilerini anlama ve geliştirme adına hazırlandı.
 
-[HavaDurumu](netlify)
+[HavaDurumu](https://gunes-esintisi-hava-durumu.netlify.app/)
 
 ## Kullandığım Teknolojiler
 Bu projeyi oluştururken aşağıda verdiğim programlama dilleri kullanıldı.
