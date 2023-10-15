@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+    
+    <!-- Sayfa Kimliğinin Yer Aldığı Alandır.-->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Site Iconu-->
+    <link rel="icon" href="/asset/img/mini-logo.png" title="HavaDurumu">
+    <!-- Google de Gözüken Başlık-->
+    <title>Güneş Esintisi | En Güncel HavaDurumu</title>
+
+    <!-- Anahtar Kelimeler-->
+    <meta name="keywords" content="hava olayları, hava durumu, rüzgar, sıcaklık, güncel">
+    <!-- Site Açıklaması-->
+    <meta name="description" content="hava durumlarını güncel olarak veriyoruz.">
+
+    <!-- Google Bot Bu Siteyi Takip Et-->
+    <meta name="robots" content="follow, index" />
+    <meta name="googlebot" content="index,follow">
+    <link rel="canonical" href="" />
+
+
+    <!--Sosyal Medyada Gözüken-->
+    <meta property="og:locale" content="tr_TR" /> <!-- web site sayfa dili -->
+    <meta property="og:type" content="website" />  <!-- Web tipi -->
+    <meta property="og:title" content="Başlık" />
+    <meta property="og:description" content="Açıklama" /> <!-- Web sayfası açıklaması -->
+    <meta property="og:url" content="" /> <!-- Web site adresi -->
+    <meta property="og:site_name" content="Başlık" /> <!-- Web sayfası başlığı -->
+    <meta property="og:image" content="" /> <!-- Web site resmi -->
+    <meta property="og:image:alt" content="" /> <!-- Web site alt yazı -->
+    <meta property="og:image:type" content="image/png" /> <!-- Web site resim tipi-->
+
+
+    <!--Twitter Medyada Gözüken-->
+    <meta name="twitter:card" content="summary_large_image" /> <!-- Web site twitter card-->
+    <meta name="twitter:title" content="" /> <!-- Web site twitter isim-->
+    <meta name="twitter:description" content="" />  <!-- Web site twitter açıklaması-->
+    <meta name="twitter:site" content="" /> <!--twitter adres-->
+    <meta name="twitter:creator" content="" /> <!--twitter adres-->
+    <meta name="twitter:image" content="" /> <!--twitter resim-->
+    <meta name="twitter:label1" content="Görüntülenme" /> <!--twitter yazar-->
+    <meta name="twitter:data1" content="126" /> <!--twitter data-->
+    <meta name="twitter:label2" content="Okuma Süresi" /> <!--twitter yazı-->
+    <meta name="twitter:data2" content="7 dakika" /> <!--twitter time-->
+
+    <!--Siteyi Yapan Kişi Şirket-->
+    <meta name="publisher" content="Feyza Adnan">
+    <meta name="author" content="Feyza Adnan">
+    <meta name="Copyright" content="2023 Yılında üretilen website hakları Feyza Adnan aittir">
+
+
+
+    <!--! Kütüphanelerin Çağırıldığı Alandır.-->
+
+    <!--FontAwasome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <!-- Splide Slider -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="asset/css/global.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/hover.css">
+    <link rel="stylesheet" href="asset/css/form.css">
+    <link rel="stylesheet" href="asset/css/animation.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="/asset/css/responsive.css">
+
+
+</head>
+
+<body> 
+
+    <!--Main-->
+    <main class="bg-white">
+        <!--Navbar-->
+        <nav class="gridsystem1024">
+
+            <!--Top Navbar-->
+            <div class="top-nav py-2 d-flex justify-content-between align-items-center">
+                <!--Logo-->
+                <a class="text-decoration-none text-black fw-semibold fontSize24 d-flex LogoWeb rounded-3 LogoWeb" href="#">
+                    <!-- <video autoplay muted width="220" height="75">
+                        <source src="/asset/web/Günes_esintisi.webm">
+                    </video> -->
+                    <img src="/asset/img/Logo.png" alt="">
+                </a>
+                
+                <!--Social Media-->
+                <!--! ul>li*4>a>i -->
+                <ul class="list-unstyled d-flex align-items-center m-0 p-0 fontSize18">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/feyza-gulsum-kobaloglu/"><i class="fa-brands fa-facebook text-black me-3"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/derinboyutf_art/"><i class="fa-brands fa-instagram text-black me-3"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/feyza-gulsum-kobaloglu/"><i class="fa-brands fa-twitter text-black me-3"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/feyza-gulsum-kobaloglu/"><i class="fa-brands fa-linkedin text-black"></i></a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <hr class="m-0">
+
+        <!--Bottom Navbar-->
+        <div class="gridsystem1024 d-flex justify-content-between align-items-center ">
+
+            <!--NavbarList-->
+            <ul class="list-unstyled d-flex align-items-center my-3 fontSize14">
+                <li><a class="text-decoration-none navButton ps-0" href="index.html">Hava Durumu</a></li>
+                <li><a class="text-decoration-none navButton" href="/havaDurumu/oneri-yap.html">Öneri Yap</a></li>
+                <li><a class="text-decoration-none navButton" href="havaDurumu/hakkimizda.html">Hakkımızda</a></li>
+            </ul>
+
+            <!--Thema-->
+            <span class="fontSize14 d-none d-lg-flex">Dark Tema</span>
+
+        </div>
+
+    </main>
+
+    <!--Hava Durumu-->
+    <section>
+        <div class="gridsystem1024 color-titanic-white">
+            <div class="d-flex flex-column flex-md-row marginTop64 justify-content-between mb-5 pb-5">
+                <div class="col-md-7 col-12">
+                    <p class="color-light-purple fontSize16">Kötü hava koşullarını önceden öğrenin, planlarınızın aksamasına sebep olan durumlardan kaçının.</p>
+                    <h1 class="fontSize28 fw-bold">Şehrinizdeki en güncel hava durumu bilgisini anlık olarak takip edin ve günlük hayatınızı planlayın</h1>
+                    
+                    <!--Hava Durumu Kartısı-->
+                    <div class="weatherCard mt-5 bg-color-transparent-white10 border border-white rounded">
+                        <!--Card Content-->
+                        <div class="d-flex flex-column flex-md-row pt-3 px-3">
+                            <div class="col-md-9 col-12">
+
+                                <!--Anlık Şehir Bilgisi-->
+                                <div class="country fw-semibold d-flex flex-column">
+                                    <span class="fontSize24" id="sehirAdi">Şehir</span>
+                                    <span class="fontSize14 color-light-purple" id="sehirSaat">00:00</span>
+                                </div>
+
+                                <!--Anlık Derece-->
+                                <div class="derece mt-4 d-flex align-items-center">
+
+                                    <!--Anlık Resim-->
+                                    <div class="havaImg mb-3">
+                                        <img src="asset/img/icon/bulut-günes.png" alt="Hava Durumu" title="Hava Durumu">
+                                    </div>
+                                    
+                                    <!--Anlık Hava-->
+                                    <div class="hava mt-2">
+                                        <p class="fontSize56 d-flex align-items-center ms-2">
+                                            <span id="sehirSicaklik" >00</span>
+                                            <svg class="mb-5" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+                                                <circle cx="8.115" cy="7.866" r="6.133" stroke="#FAFBFD" stroke-width="3.067"/>
+                                            </svg>
+                                            <span>C</span>
+                                        </p>
+                                    </div>
+
+                                    <hr class="hr-dikey-titanic-white10 ms-3">
+
+                                    <!--Anlık Hissedilen-->
+                                    <div class="hissedilen ms-3 d-md-flex flex-md-column d-none">
+                                        <span class="fontSize20 fw-semibold" id="havaDurumu">Durum</span>
+                                        <div class="sicaklik color-light-purple fontSize16 d-flex">
+                                            <span>Hissedilen</span>
+                                            <span class="ms-2" id="hissedilenHava">00</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" fill="none" viewBox="0 0 6 6">
+                                                <circle cx="2.921" cy="2.981" r="1.811" stroke="#A8B9EF" stroke-width=".906"/>
+                                            </svg>
+                                            <span>C</span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <!--Bilgilendirme-->
+                                <div class="info fw-semibold">
+                                    <p class="fontSize18 mb-1">En yüksek sıcaklık <span id="YuksekSicaklik">1</span></p>
+                                    <p class="fontSize16 color-light-purple m-0">Saatlik hava tahminlerine göz atabilirsiniz.</p>
+                                </div>
+                            
+                            </div>
+
+                            <div class="col-md-3 col-12">
+
+                                <!--Detaylar-->
+                                <div class="detay">
+                                    <p class="fontSize14 fw-semibold text-center mt-4 mt-md-2">Güncel Hava Durumu</p>
+                                    <!--Detay Buttons-->
+                                    <div class="detayButtons">
+
+                                        <!--RüzgarButton-->
+                                        <div class="ruzgarButton button-pink p-2 rounded-3 d-flex justify-content-between align-items-center fontSize12 fw-semibold">
+                                            <div class="rzgr d-flex align-items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                                    <path d="M8 11.75c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 11V7.981a.694.694 0 0 0-.216-.525A.743.743 0 0 0 8 7.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 8v3.019c0 .212.072.387.216.525A.743.743 0 0 0 8 11.75Zm0-6c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 5a.726.726 0 0 0-.216-.535A.723.723 0 0 0 8 4.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 5c0 .213.072.39.216.535A.723.723 0 0 0 8 5.75Zm0 9.75a7.3 7.3 0 0 1-2.925-.591 7.585 7.585 0 0 1-2.381-1.603 7.569 7.569 0 0 1-1.603-2.381A7.316 7.316 0 0 1 .5 8a7.3 7.3 0 0 1 .591-2.925 7.586 7.586 0 0 1 1.603-2.381A7.569 7.569 0 0 1 5.075 1.09 7.316 7.316 0 0 1 8 .5a7.3 7.3 0 0 1 2.925.591 7.586 7.586 0 0 1 2.381 1.603 7.579 7.579 0 0 1 1.604 2.381A7.29 7.29 0 0 1 15.5 8a7.3 7.3 0 0 1-.591 2.925 7.586 7.586 0 0 1-1.603 2.381 7.58 7.58 0 0 1-2.381 1.604A7.29 7.29 0 0 1 8 15.5ZM8 14c1.662 0 3.078-.584 4.247-1.753C13.417 11.08 14.001 9.663 14 8c0-1.662-.584-3.078-1.753-4.247C11.08 2.583 9.663 1.999 8 2c-1.662 0-3.078.584-4.247 1.753C2.583 4.92 1.999 6.337 2 8c0 1.662.584 3.078 1.753 4.247C4.92 13.417 6.337 14.001 8 14Z"/>
+                                                </svg>
+                                                <span class="ms-2">Rüzgar</span>
+                                            </div>
+                                            <span id="ruzgarHizi">00 km/s</span>
+                                        </div>
+
+                                        <!--NemButton-->
+                                        <div class="ruzgarButton button-yellow p-2 rounded-3 d-flex justify-content-between align-items-center fontSize12 fw-semibold mt-3">
+                                            <div class="rzgr d-flex align-items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                                    <path d="M8 11.75c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 11V7.981a.694.694 0 0 0-.216-.525A.743.743 0 0 0 8 7.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 8v3.019c0 .212.072.387.216.525A.743.743 0 0 0 8 11.75Zm0-6c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 5a.726.726 0 0 0-.216-.535A.723.723 0 0 0 8 4.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 5c0 .213.072.39.216.535A.723.723 0 0 0 8 5.75Zm0 9.75a7.3 7.3 0 0 1-2.925-.591 7.585 7.585 0 0 1-2.381-1.603 7.569 7.569 0 0 1-1.603-2.381A7.316 7.316 0 0 1 .5 8a7.3 7.3 0 0 1 .591-2.925 7.586 7.586 0 0 1 1.603-2.381A7.569 7.569 0 0 1 5.075 1.09 7.316 7.316 0 0 1 8 .5a7.3 7.3 0 0 1 2.925.591 7.586 7.586 0 0 1 2.381 1.603 7.579 7.579 0 0 1 1.604 2.381A7.29 7.29 0 0 1 15.5 8a7.3 7.3 0 0 1-.591 2.925 7.586 7.586 0 0 1-1.603 2.381 7.58 7.58 0 0 1-2.381 1.604A7.29 7.29 0 0 1 8 15.5ZM8 14c1.662 0 3.078-.584 4.247-1.753C13.417 11.08 14.001 9.663 14 8c0-1.662-.584-3.078-1.753-4.247C11.08 2.583 9.663 1.999 8 2c-1.662 0-3.078.584-4.247 1.753C2.583 4.92 1.999 6.337 2 8c0 1.662.584 3.078 1.753 4.247C4.92 13.417 6.337 14.001 8 14Z"/>
+                                                </svg>
+                                                <span class="ms-2">Nem</span>
+                                            </div>
+                                            <span id="nemOrani">00%</span>
+                                        </div>
+
+                                        <!--GörüşButton-->
+                                        <div class="gorusButton button-blue p-2 rounded-3 d-flex justify-content-between align-items-center fontSize12 fw-semibold mt-3">
+                                            <div class="grs d-flex align-items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                                    <path d="M8 11.75c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 11V7.981a.694.694 0 0 0-.216-.525A.743.743 0 0 0 8 7.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 8v3.019c0 .212.072.387.216.525A.743.743 0 0 0 8 11.75Zm0-6c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 5a.726.726 0 0 0-.216-.535A.723.723 0 0 0 8 4.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 5c0 .213.072.39.216.535A.723.723 0 0 0 8 5.75Zm0 9.75a7.3 7.3 0 0 1-2.925-.591 7.585 7.585 0 0 1-2.381-1.603 7.569 7.569 0 0 1-1.603-2.381A7.316 7.316 0 0 1 .5 8a7.3 7.3 0 0 1 .591-2.925 7.586 7.586 0 0 1 1.603-2.381A7.569 7.569 0 0 1 5.075 1.09 7.316 7.316 0 0 1 8 .5a7.3 7.3 0 0 1 2.925.591 7.586 7.586 0 0 1 2.381 1.603 7.579 7.579 0 0 1 1.604 2.381A7.29 7.29 0 0 1 15.5 8a7.3 7.3 0 0 1-.591 2.925 7.586 7.586 0 0 1-1.603 2.381 7.58 7.58 0 0 1-2.381 1.604A7.29 7.29 0 0 1 8 15.5ZM8 14c1.662 0 3.078-.584 4.247-1.753C13.417 11.08 14.001 9.663 14 8c0-1.662-.584-3.078-1.753-4.247C11.08 2.583 9.663 1.999 8 2c-1.662 0-3.078.584-4.247 1.753C2.583 4.92 1.999 6.337 2 8c0 1.662.584 3.078 1.753 4.247C4.92 13.417 6.337 14.001 8 14Z"/>
+                                                </svg>
+                                                <span class="ms-2">Görüş</span>
+                                            </div>
+                                            <span id="gorusMesafesi">00km</span>
+                                        </div>
+
+                                        <!--YoğuşmaButton-->
+                                        <div class="yogsmaButton button-green p-2 rounded-3 d-flex justify-content-between align-items-center fontSize12 fw-semibold mt-3">
+                                            <div class="yogsm d-flex align-items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                                    <path d="M8 11.75c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 11V7.981a.694.694 0 0 0-.216-.525A.743.743 0 0 0 8 7.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 8v3.019c0 .212.072.387.216.525A.743.743 0 0 0 8 11.75Zm0-6c.213 0 .39-.072.535-.216A.723.723 0 0 0 8.75 5a.726.726 0 0 0-.216-.535A.723.723 0 0 0 8 4.25a.726.726 0 0 0-.535.216A.723.723 0 0 0 7.25 5c0 .213.072.39.216.535A.723.723 0 0 0 8 5.75Zm0 9.75a7.3 7.3 0 0 1-2.925-.591 7.585 7.585 0 0 1-2.381-1.603 7.569 7.569 0 0 1-1.603-2.381A7.316 7.316 0 0 1 .5 8a7.3 7.3 0 0 1 .591-2.925 7.586 7.586 0 0 1 1.603-2.381A7.569 7.569 0 0 1 5.075 1.09 7.316 7.316 0 0 1 8 .5a7.3 7.3 0 0 1 2.925.591 7.586 7.586 0 0 1 2.381 1.603 7.579 7.579 0 0 1 1.604 2.381A7.29 7.29 0 0 1 15.5 8a7.3 7.3 0 0 1-.591 2.925 7.586 7.586 0 0 1-1.603 2.381 7.58 7.58 0 0 1-2.381 1.604A7.29 7.29 0 0 1 8 15.5ZM8 14c1.662 0 3.078-.584 4.247-1.753C13.417 11.08 14.001 9.663 14 8c0-1.662-.584-3.078-1.753-4.247C11.08 2.583 9.663 1.999 8 2c-1.662 0-3.078.584-4.247 1.753C2.583 4.92 1.999 6.337 2 8c0 1.662.584 3.078 1.753 4.247C4.92 13.417 6.337 14.001 8 14Z"/>
+                                                </svg>
+                                                <span class="ms-2">Yoğuşma</span>
+                                            </div>
+                                            <span id="yogusmaOrani">00 C</span>
+                                        </div>
+
+                                        
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!--Card Bottom-->
+                        <div class="cardBottom bg-color-transparent-white10 px-3 mt-3">
+
+                            <form class="d-flex align-items-center justify-content-between">
+                                <input id="DataGet" class="rounded-5 border-0 my-3 w-100 py-1 px-3" type="search" placeholder="Hava durumunu öğrenmen istediğiniz şehrin adını giriniz">
+                                <div>
+                                    <label id="searchButton" class="rounded-5 bg-white py-1 px-2 ms-2" for="searchBox">
+                                        <i class="fas fa-search text-black"></i>
+                                    </label>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!--Gün Seçimi-->
+                    <div class="dayBlock position-relative mt-5 mt-md-0">
+                        
+                        <!-- <div class="position-absolute bottom-0 end-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="w-100"><svg class="iconDetail" xmlns="http://www.w3.org/2000/svg" width="20" height="11" fill="none" viewBox="0 0 20 11"><path fill="#F06DF2" d="M20 11H0L10 0l10 11Z"/></svg></div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <ul class="row days d-none d-md-flex d-flex align-items-center list-unstyled justify-content-between mt-4 border rounded-5 overflow-hidden text-center">
+                            <li class="p-3 col-md">Pazartesi</li>
+                            <li class="p-3 col-md">Salı</li>
+                            <li class="p-3 col-md">Çarşamba</li>
+                            <li class="p-3 col-md">Perşembe</li>
+                            <li class="p-3 col-md">Cuma</li>
+                            <li class="p-3 col-md">Cumartesi</li>
+                            <li class="p-3 col-md">Pazar</li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-4 col-12">
+                    <div class="weatherCard bg-color-transparent-white10 border border-white rounded ">
+                        <!--Weather Header-->
+                        <div class="weatherHeader p-3 pb-2">
+                            <div class="wHead d-flex align-items-center justify-content-between px-2">
+                                <div class="icon">
+                                    <svg class="mb-1" xmlns="http://www.w3.org/2000/svg" width="18" height="17" fill="none" viewBox="0 0 18 17">
+                                        <path fill="#FAFBFD" d="M12.908 11.248a5.062 5.062 0 0 0-9.809-1.113 3.375 3.375 0 0 0 .278 6.738h9.561a2.812 2.812 0 0 0 0-5.625h-.03Z"/>
+                                        <path fill="#FAFBFD" d="M11.813.562a.562.562 0 0 0-1.125 0v1.125a.562.562 0 0 0 1.125 0V.562Zm4.21 2.21a.562.562 0 1 0-.795-.796l-.796.796a.563.563 0 0 0 .796.796l.796-.796Zm-8.75-.796a.562.562 0 0 0-.795.796l.796.796a.563.563 0 1 0 .796-.796l-.796-.796Zm1.951 3.796a2.25 2.25 0 1 1 3.707 2.472c.224.316.419.655.58 1.01a3.375 3.375 0 1 0-5.443-3.628c.396.013.783.062 1.156.146Zm5.044 4.582a3.947 3.947 0 0 1 1.712 1.206.562.562 0 0 0 .044-.835l-.796-.795a.562.562 0 0 0-.96.424Zm2.045-4.167a.563.563 0 0 0 0 1.124h1.125a.563.563 0 0 0 0-1.124h-1.125Z"/>
+                                    </svg>
+                                    <span>Büyük iller</span>
+                                </div>
+                                <span>14</span>
+                            </div>
+                            <hr class="m-0 mt-2">
+                            <ul class="list-unstyled mt-3 sehirList">
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>İstanbul</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Ankara</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Eskişehir</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>İzmir</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Bursa</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Adana</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Gaziantep</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Kayseri</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Konya</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Antalya</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Mersin</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="d-flex justify-content-between align-items-center button-defualt-green paddingAnimation m-0 p-2 rounded-2 pointer-cursor">
+                                        <span>Diyarbakır</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill="none" viewBox="0 0 14 12">
+                                        <path fill="#fff" d="M4.242 12h3.819L3.818 6l4.243-6H4.242L0 6l4.242 6Z"/>
+                                        <path fill="#fff" d="M10.182 12H14L9.758 6 14 0h-3.818L5.939 6l4.243 6Z"/>
+                                        </svg>
+                                    </p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Çözülen Sorunlar-->
+    <section class="marginTop100 marginBottom100">
+        <div class="splide clockSplide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="card p-3">
+                            <p class="fw-semibold m-0">Courtney Henry</p>
+                            <div class="starts text-warning fontSize16 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="m-0 fontSize14">Hava durumu bilgilerinin yer aldığı grafikler ve tablolar biraz karmaşık ve anlaşılması zor görünüyor ama yinede gayet güzel.</p>
+                            <p class="fontSize14 mt-2 text-success fw-semibold mb-0 mt-2">Sorun Çözüldü: Daha Modern Tasarım Yapıldı.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="card p-3">
+                            <p class="fw-semibold m-0">Tom Fisher</p>
+                            <div class="starts text-warning fontSize16 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="m-0 fontSize14">Hava durumu sitesi sayesinde her gün dışarı çıkmadan önce doğru ve güncel bilgilere sahip oluyorum harika bir başlangıç.</p>
+                            <p class="fontSize14 mt-2 text-success fw-semibold mb-0 mt-2">Sorun Çözüldü: En Güncel ve En Doğru.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="card p-3">
+                            <p class="fw-semibold m-0">Jess Corkery</p>
+                            <div class="starts text-warning fontSize16 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="m-0 fontSize14">Bu site olmasa hava durumuyla ilgili ne yapardım bilmiyorum. Her zaman güvenilir ve net bilgiler sunuyor.</p>
+                            <p class="fontSize14 mt-2 text-success fw-semibold mb-0 mt-2">Sorun Çözüldü: Daha Net Bir Anlatım Güvenli.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="card p-3">
+                            <p class="fw-semibold m-0">Holly Terry</p>
+                            <div class="starts text-warning fontSize16 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="m-0 fontSize14">Hem basit hem de görsel açıdan hoş bir tasarıma sahip. Hava durumu tahminlerini takip etmek artık keyifli.</p>
+                            <p class="fontSize14 mt-2 text-success fw-semibold mb-0 mt-2">Sorun Çözüldü: Daha Keyifli Bir Tasarım.</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="card p-3">
+                            <p class="fw-semibold m-0">Angelina Rempel</p>
+                            <div class="starts text-warning fontSize16 my-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="m-0 fontSize14">Hava durumu konusunda sürekli güncel kalmamı sağlayan favori kaynağım. Her zaman doğru bilgiler verir.</p>
+                            <p class="fontSize14 mt-2 text-success fw-semibold mb-0 mt-2">Sorun Çözüldü: Plan Yapılabilir Bir Tasarım.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-color-transparent-white10 ">
+        <div class="gridsystem1024">
+            <p class="fontSize14 fw-semibold py-3 text-white text-center m-0">© All Copyright 2023 by HavaTahmini</p>
+        </div>
+    </footer>
+
+    <!--Custom Javascript-->
+    <script src="asset/js/daysControl.js"></script>
+    
+    <!-- Splide JS -->
+    <script src="asset/js/sliderControl.js"></script>
+
+    <!--Bootstrap 5 Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script>
+        Oneri()
+    </script>
+
+    <!-- API -->
+    <script src="API.js"></script>
+</body>
+
+</html>

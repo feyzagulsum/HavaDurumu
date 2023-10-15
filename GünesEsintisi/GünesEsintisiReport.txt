@@ -1,0 +1,24 @@
+Report created: 
+	14.10.2023	17:48:01
+
+Project name: GünesEsintisi.aep
+
+Source files collected to: 
+	C:\Users\Dell G15\Desktop\GünesEsintisi
+
+Source files collected: All
+
+Collected comps:  
+	HavaEsintisi
+	Günes_Esintisi
+	
+Number of collected files:  1
+
+Size of collected files:  400 KB
+
+Collected source files: 
+	C:\Users\Dell G15\Desktop\Günes_Esintisi.ai
+	
+Rendering plug-ins:
+	Classic 3D
+	

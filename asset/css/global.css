@@ -1,0 +1,143 @@
+/* fontSize Elements */
+
+.fontSize10 {
+    font-size: 0.625rem;
+    /* 10px 0.625rem */
+}
+
+.fontSize12 {
+    font-size: 0.75rem;
+    /* 12px 0.75rem */
+}
+
+.fontSize14 {
+    font-size: 0.875rem;
+    /* 14px 0.875rem */
+}
+
+.fontSize16 {
+    font-size: 1rem;
+    /* 16px 1rem */
+}
+
+.fontSize18 {
+    font-size: 1.125rem;
+    /* 18px 1.125rem */
+}
+
+.fontSize20 {
+    font-size: 1.25rem;
+    /* 20px 1.25rem */
+}
+
+.fontSize22 {
+    font-size: 1.375rem;
+    /* 22px 1.375rem */
+}
+
+.fontSize24 {
+    font-size: 1.5rem;
+    /* 24px 1.5rem */
+}
+
+.fontSize28 {
+    font-size: 1.75rem;
+    /* 28px 1.75rem */
+}
+
+.fontSize32 {
+    font-size: 2rem;
+    /* 32px 2rem */
+}
+
+.fontSize36 {
+    font-size: 2.25rem;
+    /* 36px 2.25rem */
+}
+
+.fontSize42 {
+    font-size: 2.625rem;
+    /* 42px 2.625rem */
+}
+
+.fontSize56 {
+    font-size: 3.5rem;
+    /* 56px 3.5rem */
+}
+
+/** Background Color and Colors */
+
+.bg-color-transparent-white10{
+    background-color: #ffffff10;
+}
+
+.bg-color-light-purple50{
+    background-color: #a8b9ef50;
+}
+
+.bg-color-greens50{
+    background-color: #82e07350;
+}
+
+.bg-color-pinks50{
+    background-color: #F06DF250;
+}
+
+.color-light-purple{
+    color: #A8B9EF
+
+}
+.color-titanic-white{
+    color: #FAFBFD;
+}
+
+/** Border*/
+
+.border-green{
+    border: 1px solid #82e073;
+}
+
+.border-white50{
+    border: 1px solid #FFFFFF50;
+}
+
+.border-pinks50{
+    border: 1px solid #F06DF250;
+}
+
+/** Margins end Paddings*/
+
+.marginTop100{
+    margin-top: 6rem;
+}
+
+.marginTop64{
+    margin-top: 4rem;
+}
+
+.marginBottom100{
+    margin-bottom: 6rem;
+}
+
+/** Grid System */
+
+.gridsystem1024{
+    max-width: 1200px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+/** Position Absolute */
+
+.-bottom-5{
+    bottom: -5;
+}
+
+.-bottom-15Y{
+    bottom: -15%;
+}
+
+.top-10Y{
+    top: 10%;
+}
+

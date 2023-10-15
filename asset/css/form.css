@@ -1,0 +1,30 @@
+.coz input::placeholder {
+    color: #f8f6f8cb !important;
+}
+
+.coz textarea::placeholder {
+    color: #f8f6f8cb !important;
+}
+
+input:focus {
+    outline: 1px solid;
+    color: #f8f6f8cb;
+}
+
+textarea:focus {
+    outline: 1px solid;
+    color: #f8f6f8cb;
+}
+
+input[type="search"]:focus {
+    color: #000;
+    outline: 0;
+    border: 0;
+    box-shadow: 0px 0px 0px 0px #fff;
+}
+
+input[type="search"]:focus {
+    outline: 0;
+    font-weight: 400;
+    box-shadow: 0px 0px 5px 0px #fff;
+}

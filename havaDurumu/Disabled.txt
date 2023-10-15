@@ -1,0 +1,434 @@
+<section class="mt-5 marginBottom100">
+    <article>
+        <div class="splide clockSplide ">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide ">
+                        <div class="card p-3 bg-color-transparent-white10 text-white expanded">
+                            <div class="row justify-content-staart">
+                                <div class="col-1"><div class="border border-start h-100 opacity-25"></div></div>
+                                <div class="col-10 p-0 d-flex ">
+                                    <div class="leftCard">
+                                            <!--Burası Saat ve Buton Yeri-->
+                                        <div class="clock d-flex align-items-center justify-content-between">
+                                            <span class="fontSize20 fw-semibold">01:00</span>
+                                            <i class="fa-solid fa-bars opacity-50 me-2 expand-button"></i>
+
+                                        </div>
+
+                                        <!-- Burası Havadurumu Yeri-->
+                                        <div class="clockHava d-flex align-items-center my-4">
+                                            <img src="asset/img/icon/simsek72.png" alt="şimşekli" title="şimşekli">
+                                            <span class="fontSize32">12°C</span>
+                                        </div>
+
+                                        <!-- Burası Hava Durumu-->
+                                        <div class="clockDurum">
+                                            <span class="fontSize20 fw-semibold">Bulutlu</span>
+                                            <span class="fontSize18 color-light-purple">Hissedilen 10°C</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightCard">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide ">
+                        <div class="card p-3 bg-color-transparent-white10 text-white expanded">
+                            <div class="row justify-content-staart">
+                                <div class="col-1"><div class="border border-start h-100 opacity-25"></div></div>
+                                <div class="col-10 p-0 d-flex ">
+                                    <div class="leftCard">
+                                            <!--Burası Saat ve Buton Yeri-->
+                                        <div class="clock d-flex align-items-center justify-content-between">
+                                            <span class="fontSize20 fw-semibold">01:00</span>
+                                            <i class="fa-solid fa-bars opacity-50 me-2 expand-button"></i>
+
+                                        </div>
+
+                                        <!-- Burası Havadurumu Yeri-->
+                                        <div class="clockHava d-flex align-items-center my-4">
+                                            <img src="asset/img/icon/simsek72.png" alt="şimşekli" title="şimşekli">
+                                            <span class="fontSize32">12°C</span>
+                                        </div>
+
+                                        <!-- Burası Hava Durumu-->
+                                        <div class="clockDurum">
+                                            <span class="fontSize20 fw-semibold">Bulutlu</span>
+                                            <span class="fontSize18 color-light-purple">Hissedilen 10°C</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightCard">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide ">
+                        <div class="card p-3 bg-color-transparent-white10 text-white expanded">
+                            <div class="row justify-content-staart">
+                                <div class="col-1"><div class="border border-start h-100 opacity-25"></div></div>
+                                <div class="col-10 p-0 d-flex ">
+                                    <div class="leftCard">
+                                            <!--Burası Saat ve Buton Yeri-->
+                                        <div class="clock d-flex align-items-center justify-content-between">
+                                            <span class="fontSize20 fw-semibold">01:00</span>
+                                            <i class="fa-solid fa-bars opacity-50 me-2 expand-button"></i>
+
+                                        </div>
+
+                                        <!-- Burası Havadurumu Yeri-->
+                                        <div class="clockHava d-flex align-items-center my-4">
+                                            <img src="asset/img/icon/simsek72.png" alt="şimşekli" title="şimşekli">
+                                            <span class="fontSize32">12°C</span>
+                                        </div>
+
+                                        <!-- Burası Hava Durumu-->
+                                        <div class="clockDurum">
+                                            <span class="fontSize20 fw-semibold">Bulutlu</span>
+                                            <span class="fontSize18 color-light-purple">Hissedilen 10°C</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightCard">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide ">
+                        <div class="card p-3 bg-color-transparent-white10 text-white expanded">
+                            <div class="row justify-content-staart">
+                                <div class="col-1"><div class="border border-start h-100 opacity-25"></div></div>
+                                <div class="col-10 p-0 d-flex ">
+                                    <div class="leftCard">
+                                            <!--Burası Saat ve Buton Yeri-->
+                                        <div class="clock d-flex align-items-center justify-content-between">
+                                            <span class="fontSize20 fw-semibold">01:00</span>
+                                            <i class="fa-solid fa-bars opacity-50 me-2 expand-button"></i>
+
+                                        </div>
+
+                                        <!-- Burası Havadurumu Yeri-->
+                                        <div class="clockHava d-flex align-items-center my-4">
+                                            <img src="asset/img/icon/simsek72.png" alt="şimşekli" title="şimşekli">
+                                            <span class="fontSize32">12°C</span>
+                                        </div>
+
+                                        <!-- Burası Hava Durumu-->
+                                        <div class="clockDurum">
+                                            <span class="fontSize20 fw-semibold">Bulutlu</span>
+                                            <span class="fontSize18 color-light-purple">Hissedilen 10°C</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightCard">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide ">
+                        <div class="card p-3 bg-color-transparent-white10 text-white expanded">
+                            <div class="row justify-content-staart">
+                                <div class="col-1"><div class="border border-start h-100 opacity-25"></div></div>
+                                <div class="col-10 p-0 d-flex ">
+                                    <div class="leftCard">
+                                            <!--Burası Saat ve Buton Yeri-->
+                                        <div class="clock d-flex align-items-center justify-content-between">
+                                            <span class="fontSize20 fw-semibold">01:00</span>
+                                            <i class="fa-solid fa-bars opacity-50 me-2 expand-button"></i>
+
+                                        </div>
+
+                                        <!-- Burası Havadurumu Yeri-->
+                                        <div class="clockHava d-flex align-items-center my-4">
+                                            <img src="asset/img/icon/simsek72.png" alt="şimşekli" title="şimşekli">
+                                            <span class="fontSize32">12°C</span>
+                                        </div>
+
+                                        <!-- Burası Hava Durumu-->
+                                        <div class="clockDurum">
+                                            <span class="fontSize20 fw-semibold">Bulutlu</span>
+                                            <span class="fontSize18 color-light-purple">Hissedilen 10°C</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightCard">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide ">
+                        <div class="card p-3 bg-color-transparent-white10 text-white expanded">
+                            <div class="row justify-content-staart">
+                                <div class="col-1"><div class="border border-start h-100 opacity-25"></div></div>
+                                <div class="col-10 p-0 d-flex ">
+                                    <div class="leftCard">
+                                            <!--Burası Saat ve Buton Yeri-->
+                                        <div class="clock d-flex align-items-center justify-content-between">
+                                            <span class="fontSize20 fw-semibold">01:00</span>
+                                            <i class="fa-solid fa-bars opacity-50 me-2 expand-button"></i>
+
+                                        </div>
+
+                                        <!-- Burası Havadurumu Yeri-->
+                                        <div class="clockHava d-flex align-items-center my-4">
+                                            <img src="asset/img/icon/simsek72.png" alt="şimşekli" title="şimşekli">
+                                            <span class="fontSize32">12°C</span>
+                                        </div>
+
+                                        <!-- Burası Hava Durumu-->
+                                        <div class="clockDurum">
+                                            <span class="fontSize20 fw-semibold">Bulutlu</span>
+                                            <span class="fontSize18 color-light-purple">Hissedilen 10°C</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightCard">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide ">
+                        <div class="card p-3 bg-color-transparent-white10 text-white expanded">
+                            <div class="row justify-content-staart">
+                                <div class="col-1"><div class="border border-start h-100 opacity-25"></div></div>
+                                <div class="col-10 p-0 d-flex ">
+                                    <div class="leftCard">
+                                            <!--Burası Saat ve Buton Yeri-->
+                                        <div class="clock d-flex align-items-center justify-content-between">
+                                            <span class="fontSize20 fw-semibold">01:00</span>
+                                            <i class="fa-solid fa-bars opacity-50 me-2 expand-button"></i>
+
+                                        </div>
+
+                                        <!-- Burası Havadurumu Yeri-->
+                                        <div class="clockHava d-flex align-items-center my-4">
+                                            <img src="asset/img/icon/simsek72.png" alt="şimşekli" title="şimşekli">
+                                            <span class="fontSize32">12°C</span>
+                                        </div>
+
+                                        <!-- Burası Hava Durumu-->
+                                        <div class="clockDurum">
+                                            <span class="fontSize20 fw-semibold">Bulutlu</span>
+                                            <span class="fontSize18 color-light-purple">Hissedilen 10°C</span>
+                                        </div>
+                                    </div>
+                                    <div class="rightCard">
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+</section>
+
+
+<section class="text-white marginBottom100">
+    <!-- Başlık Bölümü -->
+    <article class="text-center gridsystem1024 ">
+        <p class="fontSize20 color-light-purple">Hava koşullarının değişimine ayak uydurun,planlarınızı güvence altına alın</p>
+        <div class="d-flex align-items-center justify-content-center">
+            <h2 class="fontSize36 fw-bold w-75 mx-md-5 px-md-5">Haftalık hava durumu raporumuzla, gelecek haftanın hava koşullarına hazırlıklı olun</h2>
+        </div>
+    </article>
+
+    <!-- İçerik Bölümü -->
+    <article class="gridsystem1024 ">
+        <div class="card bg-color-transparent-white10 border px-4 py-4 mt-5 text-white">
+
+            <!-- İçerik Başlığı-->
+            <div class="cardHeader fw-semibold fontSize20 d-flex justify-content-between align-items-center">
+                <span>Haftalık Hava Tahmini</span>
+                <span>İstanbul</span>
+            </div>
+            <div class="border mt-3 mb-4"></div>
+
+            <!--Haftalık Hava Durumu Listesi-->
+            <ul class="list-unstyled">
+                
+                <li class="bg-color-light-purple50 p-3 rounded-2 d-flex align-items-center justify-content-between card-white transitionDuration05">
+
+                    <div class="d-flex flex-column flex-md-row w-100 align-items-center">
+                        <div class="col-md-3 ">
+                            <span class="fontSize16 mb-2 fw-semibold">Pazartesi</span>
+                        </div>
+                        <div class="col-md-3 p-0 my-2 my-md-0">
+                            <div class="icon">
+                                <img src="asset/img/icon/bulut-gunes-haftalik.png" alt="Hafta Pazartesi" title="Hafta Pazartesi">
+                                <span class="fontSize24">12°C</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end p-0">
+                            <div class="settings color-light-purple fw-semibold fontSize16">
+                                <span class="ms-3">Rüzgar<span class="ms-2">15 km/s</span></span>
+                                <span class="ms-3">Nem<span class="ms-2">48%</span></span>
+                                <span class="ms-3">Yoğuşma<span class="ms-2">13 C</span></span>
+                                <span class="ms-3">Görüş<span class="ms-2">48%</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="bg-color-light-purple50 p-3 rounded-2 d-flex align-items-center justify-content-between mt-3 card-white transitionDuration05">
+
+                    <div class="d-flex flex-column flex-md-row w-100 align-items-center">
+                        <div class="col-md-3 ">
+                            <span class="fontSize16 mb-2 fw-semibold">Salı</span>
+                        </div>
+                        <div class="col-md-3 p-0 my-2 my-md-0">
+                            <div class="icon">
+                                <img src="asset/img/icon/bulut-gunes-haftalik.png" alt="Hafta Pazartesi" title="Hafta Pazartesi">
+                                <span class="fontSize24">15°C</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end p-0">
+                            <div class="settings color-light-purple fw-semibold fontSize16">
+                                <span class="ms-3">Rüzgar<span class="ms-2">15 km/s</span></span>
+                                <span class="ms-3">Nem<span class="ms-2">48%</span></span>
+                                <span class="ms-3">Yoğuşma<span class="ms-2">13 C</span></span>
+                                <span class="ms-3">Görüş<span class="ms-2">48%</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="bg-color-light-purple50 p-3 rounded-2 d-flex align-items-center justify-content-between mt-3 card-white transitionDuration05">
+
+                    <div class="d-flex flex-column flex-md-row w-100 align-items-center">
+                        <div class="col-md-3 ">
+                            <span class="fontSize16 mb-2 fw-semibold">Çarşamba</span>
+                        </div>
+                        <div class="col-md-3 p-0 my-2 my-md-0">
+                            <div class="icon">
+                                <img src="asset/img/icon/bulut-gunes-haftalik.png" alt="Hafta Pazartesi" title="Hafta Pazartesi">
+                                <span class="fontSize24">13°C</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end p-0">
+                            <div class="settings color-light-purple fw-semibold fontSize16">
+                                <span class="ms-3">Rüzgar<span class="ms-2">15 km/s</span></span>
+                                <span class="ms-3">Nem<span class="ms-2">48%</span></span>
+                                <span class="ms-3">Yoğuşma<span class="ms-2">13 C</span></span>
+                                <span class="ms-3">Görüş<span class="ms-2">48%</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="bg-color-light-purple50 p-3 rounded-2 d-flex align-items-center justify-content-between mt-3 card-white transitionDuration05">
+
+                    <div class="d-flex flex-column flex-md-row w-100 align-items-center">
+                        <div class="col-md-3 ">
+                            <span class="fontSize16 mb-2 fw-semibold">Perşembe</span>
+                        </div>
+                        <div class="col-md-3 p-0 my-2 my-md-0">
+                            <div class="icon">
+                                <img src="asset/img/icon/bulut-gunes-haftalik.png" alt="Hafta Pazartesi" title="Hafta Pazartesi">
+                                <span class="fontSize24">11°C</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end p-0">
+                            <div class="settings color-light-purple fw-semibold fontSize16">
+                                <span class="ms-3">Rüzgar<span class="ms-2">15 km/s</span></span>
+                                <span class="ms-3">Nem<span class="ms-2">48%</span></span>
+                                <span class="ms-3">Yoğuşma<span class="ms-2">13 C</span></span>
+                                <span class="ms-3">Görüş<span class="ms-2">48%</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="bg-color-light-purple50 p-3 rounded-2 d-flex align-items-center justify-content-between mt-3 card-white transitionDuration05">
+
+                    <div class="d-flex flex-column flex-md-row w-100 align-items-center">
+                        <div class="col-md-3 ">
+                            <span class="fontSize16 mb-2 fw-semibold">Cuma</span>
+                        </div>
+                        <div class="col-md-3 p-0 my-2 my-md-0">
+                            <div class="icon">
+                                <img src="asset/img/icon/bulut-gunes-haftalik.png" alt="Hafta Pazartesi" title="Hafta Pazartesi">
+                                <span class="fontSize24">08°C</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end p-0">
+                            <div class="settings color-light-purple fw-semibold fontSize16">
+                                <span class="ms-3">Rüzgar<span class="ms-2">15 km/s</span></span>
+                                <span class="ms-3">Nem<span class="ms-2">48%</span></span>
+                                <span class="ms-3">Yoğuşma<span class="ms-2">13 C</span></span>
+                                <span class="ms-3">Görüş<span class="ms-2">48%</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="bg-color-light-purple50 p-3 rounded-2 d-flex align-items-center justify-content-between mt-3 card-white transitionDuration05">
+
+                    <div class="d-flex flex-column flex-md-row w-100 align-items-center">
+                        <div class="col-md-3 ">
+                            <span class="fontSize16 mb-2 fw-semibold">Cumartesi</span>
+                        </div>
+                        <div class="col-md-3 p-0 my-2 my-md-0">
+                            <div class="icon">
+                                <img src="asset/img/icon/bulut-gunes-haftalik.png" alt="Hafta Pazartesi" title="Hafta Pazartesi">
+                                <span class="fontSize24">12°C</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end p-0">
+                            <div class="settings color-light-purple fw-semibold fontSize16">
+                                <span class="ms-3">Rüzgar<span class="ms-2">15 km/s</span></span>
+                                <span class="ms-3">Nem<span class="ms-2">48%</span></span>
+                                <span class="ms-3">Yoğuşma<span class="ms-2">13 C</span></span>
+                                <span class="ms-3">Görüş<span class="ms-2">48%</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </li>
+                <li class="bg-color-light-purple50 p-3 rounded-2 d-flex align-items-center justify-content-between mt-3 card-white transitionDuration05">
+
+                    <div class="d-flex flex-column flex-md-row w-100 align-items-center">
+                        <div class="col-md-3">
+                            <span class="fontSize16 mb-2 fw-semibold">Pazar</span>
+                        </div>
+                        <div class="col-md-3 p-0 my-2 my-md-0">
+                            <div class="icon">
+                                <img src="asset/img/icon/bulut-gunes-haftalik.png" alt="Hafta Pazartesi" title="Hafta Pazartesi">
+                                <span class="fontSize24">15°C</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-end p-0">
+                            <div class="settings color-light-purple fw-semibold fontSize16">
+                                <span class="ms-3">Rüzgar<span class="ms-2">15 km/s</span></span>
+                                <span class="ms-3">Nem<span class="ms-2">48%</span></span>
+                                <span class="ms-3">Yoğuşma<span class="ms-2">13 C</span></span>
+                                <span class="ms-3">Görüş<span class="ms-2">48%</span></span>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </li>
+                
+            </ul>
+        </div>
+    </article>
+
+</section>

@@ -1,0 +1,14 @@
+.paddingAnimation{
+    transition: .3s all;
+}
+
+.paddingAnimation:hover{
+    transform: scale(1.05);
+}
+
+
+/* Slow Animation */
+
+.transitionDuration05{
+    transition: .5s all;
+}

@@ -1,0 +1,102 @@
+
+/* Pembe Buton */
+
+.button-pink{
+    fill: white;
+    background-color: #f06df240;
+    border: 1px solid #f06df2;
+    transition: .3s all;
+}
+
+.button-pink:hover{
+    background-color: #f06df2;
+    fill: #982d9a;
+    color: #982d9a;
+}
+
+/* Sarı Buton */
+
+.button-yellow{
+    fill: white;
+    background-color: #FFD36240;
+    border: 1px solid #FFD362;
+    transition: .3s all;
+}
+
+.button-yellow:hover{
+    fill: #966F0B;
+    background-color: #FFD362;
+    color: #966F0B;
+}
+
+/* Mavi Buton */
+
+.button-blue{
+    fill: white;
+    background-color: #00D1FF40;
+    border: 1px solid #00D1FF;
+    transition: .3s all;
+}  
+
+.button-blue:hover{ 
+    background-color:#00D1FF;
+    color: #0a7289;
+    fill: #0a7289;
+}
+
+/* Yeşil Buton */
+
+.button-green{
+    fill: white;
+    background-color: #82e07340;
+    border: 1px solid #82e073; 
+    transition: .3s all;
+}  
+
+.button-green:hover{ 
+    background-color:#aeffa1;
+    color: #3d942d;
+    fill: #3d942d;
+}
+
+.button-defualt-green{
+    fill: white;
+    background-color: #81e07300;
+    border: 1px solid #81e07300; 
+    transition: .3s all;
+}
+
+.button-defualt-green:hover{
+    fill: white;
+    background-color: #82e07340;
+    border: 1px solid #82e073; 
+    transition: .3s all;
+}
+
+
+.card-white:hover{
+    background-color: #FBFBFB;
+    color: black;
+}   
+
+.card-white:hover .color-light-purple{
+    color: black;
+}
+
+/** Others */
+
+.pointer-cursor:hover{
+    cursor: pointer;
+}
+
+.navButton{
+    padding: 1rem;
+    color: black;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.navButton:hover{
+    color: #2768c4;
+    transform: scale(1.1);
+}
